@@ -6,12 +6,6 @@ An applied machine learning project focused on classifying skin cancer images in
 
 ---
 
-## 🌐 Live Demo (Coming Soon)
-
-📺 A short walkthrough video of our model training, results, and visualizations will be embedded here.
-
----
-
 ## 🧠 Project Overview
 
 - 🔍 Dataset: [Melanoma Skin Cancer Dataset (Kaggle)](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images)
