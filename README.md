@@ -1,4 +1,4 @@
-# 🧬 Melanoma Classification with CNNs & EfficientNetB0
+# 🧬 Melanoma Classification with CNNs // EfficientNetB0
 
 An applied machine learning project focused on classifying skin cancer images into benign and malignant cases using deep convolutional neural networks. This project explores multiple CNN architectures, data augmentation strategies, optimisers, and hyperparameter tuning — with **EfficientNetB0** achieving state-of-the-art results.
 
@@ -25,6 +25,24 @@ An applied machine learning project focused on classifying skin cancer images in
 | **EfficientNetB0** | **96.80** | **0.9679** |
 
 EfficientNetB0 was selected as the final model for its optimal performance vs resource efficiency.
+
+---
+
+## 📈 Final Results
+
+🏆 Our best-performing model, **EfficientNetB0**, achieved the following:
+
+| Metric         | Value     |
+|----------------|-----------|
+| Accuracy       | **96.80%** |
+| F1 Score       | **0.9679** |
+| Precision      | 0.9751    |
+| Recall         | 0.9612    |
+| AUC-ROC        | 0.979     |
+
+✅ Model trained using `Adam` optimizer, `lr = 0.001`, `batch size = 64`, for 25 epochs  
+✅ 3-fold validation was used to ensure generalizability  
+✅ Dataset: [Melanoma Skin Cancer Dataset (Kaggle)](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images)
 
 ---
 
