@@ -53,7 +53,7 @@ EfficientNetB0 was selected as the final model for its optimal performance vs re
 - Normalization (ImageNet mean/std)
 - RandomHorizontalFlip, Rotation (±15°), ColorJitter, RandomResizedCrop
 
-![Sample Augmented](assets/sample_augmented.png)
+![Sample Augmented](assets/augmented_melanoma.png)
 
 ---
 
@@ -71,13 +71,13 @@ EfficientNetB0 was selected as the final model for its optimal performance vs re
 
 | Training & Validation Loss | Confusion Matrix |
 |----------------------------|------------------|
-| ![Loss Curve](assets/loss_curve.png) | ![Confusion](assets/confusion_matrix.png) |
+| ![Loss Curve](assets/loss_curve.png) | ![Confusion](assets/conf_matrix.png) |
 
 ---
 
 ### 🧠 CNN Insights (Activation Maps)
 
-![Activation Map](assets/activation_map.png)
+![Activation Map](assets/activation_maps.png)
 
 These maps show the model learning important lesion features like border irregularity and asymmetry—core visual traits used by dermatologists.
 
